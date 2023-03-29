@@ -35,3 +35,7 @@ header {
   text-align: end;
 }
 
+button {
+  background-color: #073226;
+  box-shadow: none;
+}
