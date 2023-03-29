@@ -1,10 +1,27 @@
 body {
   max-width: 320px;
   margin: auto;
-  background: #ddd;
+  background: #000;
 }
 
 img {
   display: block;
   max-width: 100%;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  top: 0;
+  margin-bottom: 20px;
+  background-color: #0c503d;
+  padding: 0 20px;
+  position: sticky;
+}
+
+.profile-picture {
+  width: 20%;
+  height: 20%;
+  border-radius: 50%;
 }
