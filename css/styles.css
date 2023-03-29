@@ -13,6 +13,10 @@ main {
   background-color: #000;
 }
 
+h1 {
+  font-size: 20px;
+}
+
 header {
   display: flex;
   justify-content: space-between;
@@ -43,4 +47,8 @@ header {
 button {
   background-color: #073226;
   box-shadow: none;
+}
+
+footer {
+  position: sticky;
 }
