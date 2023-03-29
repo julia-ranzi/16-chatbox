@@ -40,8 +40,19 @@ header {
   flex-direction: column;
 }
 
+.message-box {
+  font-size: 12px;
+  padding: 0 5px 0 0;
+  margin: 0;
+}
+
 .message-box-girl {
   text-align: end;
+}
+
+.message-time {
+  margin: 0;
+  padding: 0 5px 0 0;
 }
 
 button {
