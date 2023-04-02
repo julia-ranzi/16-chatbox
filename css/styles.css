@@ -42,12 +42,14 @@ header {
 
 .message-box {
   font-size: 12px;
+  max-width: fit-content;
 }
 
 .message-box-girl {
   text-align: end;
   border-radius: 15px 15px 0 15px;
   background-color: #073226;
+  align-content: flex-end;
 }
 
 .message-box-unknown {
@@ -61,7 +63,6 @@ header {
 }
 
 .message-content {
-  margin: 0 0 5px 0;
   padding: 10px 15px;
 }
 
@@ -71,6 +72,18 @@ button {
 }
 
 footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  background-color: #0c503d;
+  padding: 15px;
   position: sticky;
   bottom: 0;
+  color: #000;
+}
+
+.dates {
+  text-align: center;
+  font-style: italic;
 }
