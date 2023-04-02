@@ -21,11 +21,11 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  top: 0;
   margin-bottom: 20px;
   background-color: #0c503d;
   padding: 0 20px;
   position: sticky;
+  top: 0;
   color: #000;
 }
 
@@ -56,6 +56,7 @@ header {
 .message-content {
   margin: 0 0 5px 0;
   padding: 10px 15px;
+  background-color: #073226;
 }
 
 button {
@@ -65,4 +66,5 @@ button {
 
 footer {
   position: sticky;
+  bottom: 0;
 }
