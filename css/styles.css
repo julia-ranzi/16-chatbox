@@ -47,22 +47,30 @@ header {
 }
 
 .message-box-girl {
-  text-align: end;
-  border-radius: 15px 15px 0 15px;
-  background-color: #073226;
+  justify-self: flex-end;
 }
 
-.message-box-unknown {
+.message-box-unknown .message-content {
   background-color: #2f6f5d;
-  border-radius: 15px 15px 15px 0;
+  border-radius: 15px 15px 15p
+}
+
+.message-box-girl .message-content {
+  border-radius: 15px 15px 0 15px;
+  background-color: #073226;
 }
 
 .message-time {
   margin: 0 0 3px 0;
   padding: 0 5px 5px 5px;
+  font-size: 10px;
 }
 
 .message-content {
+  padding: 10px 15px;
+  border-radius: 15px 15px 15px 0;
+  background-color: #2f6f5d;
+  margin: 0 0 5px 0;
   padding: 10px 15px;
 }
 
@@ -76,7 +84,6 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 20px;
   background-color: #0c503d;
   padding: 15px;
   position: sticky;
