@@ -46,17 +46,23 @@ header {
 
 .message-box-girl {
   text-align: end;
+  border-radius: 15px 15px 0 15px;
+  background-color: #073226;
+}
+
+.message-box-unknown {
+  background-color: #2f6f5d;
+  border-radius: 15px 15px 15px 0;
 }
 
 .message-time {
-  margin: 0 0 3px 0 ;
+  margin: 0 0 3px 0;
   padding: 0 5px 5px 5px;
 }
 
 .message-content {
   margin: 0 0 5px 0;
   padding: 10px 15px;
-  background-color: #073226;
 }
 
 button {
