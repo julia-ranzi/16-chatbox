@@ -29,8 +29,8 @@ header {
 }
 
 .profile-picture {
-  width: 10%;
-  height: 10%;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
 }
 
@@ -47,7 +47,7 @@ header {
 }
 
 .message-box-girl {
-  justify-self: flex-end;
+  justify-self: right;
 }
 
 .message-box-unknown .message-content {
