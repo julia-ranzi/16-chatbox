@@ -47,7 +47,7 @@ header {
 }
 
 .message-box-girl {
-  justify-self: right;
+  align-self: right;
 }
 
 .message-box-unknown .message-content {
@@ -76,7 +76,6 @@ header {
 
 button {
   background-color: #2f6f5d;
-  box-shadow: none;
   padding: 10px;
 }
 
