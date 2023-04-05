@@ -2,6 +2,7 @@ body {
   max-width: 375px;
   margin: auto;
   color: #fff;
+  font-family: 'Roboto', sans-serif;
 }
 
 img {
